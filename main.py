@@ -7,7 +7,7 @@ print(quote[12:len(quote)].capitalize()) #Will capitalize and print 'quote' from
 print(quote.upper()) #Will print 'quote' in all uppercase
 print(quote.lower()) #Will print 'quote' in all lowercase
 print(quote.find('o')) #Will find the index of the first appearance of 'o' in 'quote'
-print(quote.replace('we are', 'we\'re')) #Will eeplace the string 'we are' in 'quote' to 'we're'
+print(quote.replace('we are', 'we\'re')) #Will replace the string 'we are' in 'quote' to 'we're'
 
 #Booleans
 
