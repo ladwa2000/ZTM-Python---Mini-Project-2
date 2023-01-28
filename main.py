@@ -1,6 +1,9 @@
-#Age Calculator
+#Password Checker
 
-birth_year = input('What year were you born? ')
-age = (2023 - int(birth_year))
+username = input('Enter your username: ')
+password = input('Enter your password: ')
 
-print(f'Your age is: {age}')
+password_length = len(password) 
+password_hidden = password_length * '*'
+
+print(f'Hey, {username}! Your password {password_hidden} is {password_length} characters long')
